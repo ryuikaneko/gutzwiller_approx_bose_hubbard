@@ -1,0 +1,8 @@
+set term png
+set output "fig_sqrt_superfluid.png"
+set xlabel "t/U"
+set ylabel "sqrt of superfluid density"
+set key right bottom
+p \
+"dat_nspec3_U1.0_mu0.371_t0.0to0.1" u 3:10 w lp ti "n_{spec}=3", \
+"dat_nspec10_U1.0_mu0.371_t0.0to0.1" u 3:10 w lp ti "n_{spec}=10"
