@@ -4,5 +4,5 @@ set xlabel "t/U"
 set ylabel "sqrt of superfluid density"
 set key right bottom
 p \
-"dat_nspec3_U1.0_mu0.371_t0.0to0.1" u 3:10 w lp ti "n_{spec}=3", \
-"dat_nspec10_U1.0_mu0.371_t0.0to0.1" u 3:10 w lp ti "n_{spec}=10"
+"dat_nsps3_U1.0_mu0.371_t0.0to0.1" u 3:10 w lp ti "n_{sps}=3", \
+"dat_nsps10_U1.0_mu0.371_t0.0to0.1" u 3:10 w lp ti "n_{sps}=10"

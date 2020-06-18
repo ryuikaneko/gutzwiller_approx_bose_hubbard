@@ -3,5 +3,5 @@ set output "fig_charge_fluc.png"
 set xlabel "t/U"
 set ylabel "charge fluctuation <n^2>-<n>^2"
 p \
-"dat_nspec3_U1.0_mu0.371_t0.0to0.1" u 3:($13-$12**2) w lp ti "n_{spec}=3", \
-"dat_nspec10_U1.0_mu0.371_t0.0to0.1" u 3:($13-$12**2) w lp ti "n_{spec}=10"
+"dat_nsps3_U1.0_mu0.371_t0.0to0.1" u 3:($13-$12**2) w lp ti "n_{sps}=3", \
+"dat_nsps10_U1.0_mu0.371_t0.0to0.1" u 3:($13-$12**2) w lp ti "n_{sps}=10"
